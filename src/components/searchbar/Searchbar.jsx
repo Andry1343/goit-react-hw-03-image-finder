@@ -21,7 +21,6 @@ export const Searchbar = ({ onSubmit }) => {
       <form className={style.searchForm} onSubmit={handleSubmit}>
         <button type="submit" className={style.searchForm_button}>
           <MdOutlineImageSearch size={25} fill={'black'} />
-          
         </button>
         <ToastContainer />
 
